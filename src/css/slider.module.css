@@ -1,0 +1,20 @@
+.slider {
+    margin-left: 20px;
+}
+
+.slide_li {
+    z-index: 1;
+    transition: all 0.2s linear;
+}
+
+.slide_li:hover {
+    transform: scale(1.03);
+}
+
+.img {
+    border-radius: 2%;
+}
+
+.img:hover {
+    
+}
