@@ -1,20 +1,25 @@
 .slider {
     margin-left: 20px;
+    margin-bottom: 100px;
 }
 
 .slide_li {
-    z-index: 1;
     transition: all 0.2s linear;
 }
 
+.slide_li a{
+    text-decoration: none;
+    color: white;
+}
+
+
 .slide_li:hover {
     transform: scale(1.03);
-}
-
-.img {
-    border-radius: 2%;
-}
-
-.img:hover {
     
+}
+
+.movie_title {
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 5px;
 }
